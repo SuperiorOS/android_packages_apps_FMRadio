@@ -32,6 +32,11 @@ LOCAL_SHARED_LIBRARIES := \
     libmedia \
     liblog
 
+LOCAL_CPPFLAGS := \
+    -Wno-error \
+    -Wno-unused-parameter \
+    -Wno-unused-variable
+
 LOCAL_MODULE := libfmjni
 LOCAL_MODULE_TAGS := optional
 
